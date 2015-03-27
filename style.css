@@ -22,7 +22,7 @@ a:visited {
 }
 
 .intro {
-  background: #fff url("assets/jumping.png") no-repeat left top;
+  background: #fff url("assets/jump.jpg") no-repeat left top;
   background-size: cover;
   overflow: hidden;
   width: 100%;
