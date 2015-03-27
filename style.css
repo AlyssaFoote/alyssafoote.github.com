@@ -22,7 +22,7 @@ a:visited {
 }
 
 .intro {
-  background: #fff url("assets/Jump.jpg") no-repeat left top;
+  background: #fff url("assets/jump.jpg") no-repeat left top;
   background-size: cover;
   overflow: hidden;
   width: 100%;
@@ -187,13 +187,13 @@ h2.occupation {
 }
 
 .story .one {
-  background: transparent url("assets/Binoculars.gif") no-repeat left top;
+  background: transparent url("assets/binoculars.gif") no-repeat left top;
   margin-top: 130px;
 }
 
 .story .two {
-  background: transparent url("assets/Compass.gif") no-repeat right top;
-  background-size: 405px 342px
+  background: transparent url("assets/compass.gif") no-repeat right top;
+  background-size: 405px 342px;
   margin-top: 200px;
 }
 
