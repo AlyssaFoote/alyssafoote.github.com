@@ -9,16 +9,13 @@ body {
   background-color: #f9f6f1;
 }
 
-body.page-about {
-  background-color: #fff;
+body.paned {
+  background-color: #f9f6f1;
+  height: 100%;
 }
 
 a {
   text-decoration: none;
-}
-
-a:visited {
-  color: #1f1dac;
 }
 
 .intro {
@@ -274,20 +271,22 @@ a.book {
 .panes {
   color: #1f1dac;
   overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  top: 0;
 }
 
 .pane {
+  float: left;
+  height: 100%;
   padding-top: 100px;
   width: 50%;
   min-width: 500px;
+  padding-bottom: 99999px;
+  margin-bottom: -99999px;
 }
 
 .pane-nav {
-  background-color: #f9f6f1;
-  bottom: 0;
-  height: 100%;
-  position: fixed;
-  top: 0;
   text-align: center;
 }
 
@@ -306,7 +305,7 @@ a.book {
 }
 
 .pane-content-container {
-  float: right;
+  background-color: #fff;
 }
 
 .pane-content p {
@@ -337,6 +336,10 @@ a.book {
   font-weight: bold;
   margin-right: 35px;
   text-transform: uppercase;
+}
+
+.link a:visited {
+  color: #1f1dac;
 }
 
 .pane-nav .link.last {
