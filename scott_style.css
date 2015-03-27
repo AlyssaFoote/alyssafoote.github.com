@@ -9,12 +9,20 @@ body {
   background-color: #f9f6f1;
 }
 
+body.page-about {
+  background-color: #fff;
+}
+
 a {
   text-decoration: none;
 }
 
+a:visited {
+  color: #1f1dac;
+}
+
 .intro {
-  background: #fff url("assets/Jump.jpg") no-repeat left top;
+  background: #fff url("assets/jumping.png") no-repeat left top;
   background-size: cover;
   overflow: hidden;
   width: 100%;
@@ -39,7 +47,7 @@ a {
 }
 
 .nav .link.services a {
-  color: #1F1DAC;
+  color: #1f1dac;
 }
 
 .links {
@@ -179,14 +187,14 @@ h2.occupation {
 }
 
 .story .one {
-  background: transparent url("assets/Binoculars.gif") no-repeat left top;
+  background: transparent url("assets/work.gif") no-repeat left top;
   margin-top: 130px;
 }
 
 .story .two {
-  background: transparent url("assets/Compass.gif") no-repeat right top;
+  background: transparent url("assets/compass.png") no-repeat right top;
+  background-size: 353px 316px;
   margin-top: 200px;
-  background-size: 405px 342px
 }
 
 .story .epilog {
@@ -194,7 +202,7 @@ h2.occupation {
 }
 
 .footer {
-  color: #1F1DAC;
+  color: #1f1dac;
   font-family: 'Gotham-Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 15px;
   font-weight: bold;
@@ -204,7 +212,7 @@ h2.occupation {
 }
 
 .book {
-  background-color: #1F1DAC;
+  background-color: #1f1dac;
   display: inline-block;
   font-family: 'Gotham-Bold', 'Gotham-Black', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 30px;
@@ -221,7 +229,7 @@ a.book {
 
 .footer .contact {
   margin-top: 111px;
-  color: #1F1DAC;
+  color: #1f1dac;
 }
 
 .footer .contact li {
@@ -229,18 +237,18 @@ a.book {
   background-repeat: no-repeat;
   display: inline-block;
   margin-right: 182px;
-  color: #1F1DAC;
+  color: #1f1dac;
 }
 
 .footer .contact li a {
   display: inline-block;
   padding-top: 90px;
-  color: #1F1DAC;
+  color: #1f1dac;
 }
 
 .footer .contact li.last {
   margin-right: 0px;
-  color: #1F1DAC;
+  color: #1f1dac;
 }
 
 .mail {
@@ -262,4 +270,76 @@ a.book {
   margin-top: 75px;
   text-transform: uppercase;
   
+}
+
+.panes {
+  color: #1f1dac;
+  overflow: hidden;
+}
+
+.pane {
+  padding-top: 100px;
+  width: 50%;
+  min-width: 500px;
+}
+
+.pane-nav {
+  background-color: #f9f6f1;
+  bottom: 0;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  text-align: center;
+}
+
+.pane-nav h1 {
+  font-family: Gotham-Medium, 'Gotham Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.portrait {
+  height: 307px;
+  margin-top: 54px;
+  width: 307px;
+}
+
+.pane-content-container {
+  float: right;
+}
+
+.pane-content p {
+  font-family: Gotham-Book, 'Gotham Book', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.pane-content {
+  padding: 0 100px;
+}
+
+.pane-content h3 {
+  font-family: Gotham-Bold, 'Gotham Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.pane-nav .links {
+  margin-top: 100px;
+}
+
+.pane-nav .link {
+  display: inline;
+  font-family: Gotham-Black, 'Gotham Black', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 35px;
+  text-transform: uppercase;
+}
+
+.pane-nav .link.last {
+  margin-right: 0px;
 }
