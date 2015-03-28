@@ -10,8 +10,7 @@ body {
 }
 
 body.paned {
-  background-color: #f9f6f1;
-  height: 100%;
+  background-color: #fff;
 }
 
 a {
@@ -274,13 +273,16 @@ a.book {
 }
 
 .pane {
-  float: left;
   padding-top: 100px;
   width: 50%;
   min-width: 500px;
 }
 
 .pane-nav {
+  background-color: #f9f6f1;
+  bottom: 0;
+  position: fixed;
+  top: 0;
   text-align: center;
 }
 
@@ -296,6 +298,7 @@ a.book {
 
 .pane-content-container {
   background-color: #fff;
+  float: right;
 }
 
 .pane-content p {
