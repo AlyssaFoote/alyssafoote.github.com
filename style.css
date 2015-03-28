@@ -29,12 +29,12 @@ a {
   color: #FFFFFF;
 }
 
-.nav {
+.header-nav {
   margin-left: 88px;
   margin-top: 24px;
 }
 
-.nav .link {
+.header-nav .link {
   display: inline;
   font-family: Gotham-Bold, 'Gotham Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -43,11 +43,11 @@ a {
   text-transform: uppercase;
 }
 
-.nav .link.services a {
+.header-nav .link.services a, .header-nav .link.services a:visited  {
   color: #1f1dac;
 }
 
-.links {
+.header-nav .links {
   margin: 0;
   padding: 0;
 }
@@ -326,7 +326,8 @@ a.book {
 }
 
 .pane-nav .links {
-  margin-top: 100px;
+  margin: 100px 0 0 0;
+  padding: 0;
 }
 
 .pane-nav .link {
@@ -338,7 +339,7 @@ a.book {
   text-transform: uppercase;
 }
 
-.link a:visited {
+.pane-nav .link a, .pane-nav .link a:visited {
   color: #1f1dac;
 }
 
