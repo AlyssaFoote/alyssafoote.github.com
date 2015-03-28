@@ -275,12 +275,9 @@ a.book {
 
 .pane {
   float: left;
-  height: 100%;
   padding-top: 100px;
   width: 50%;
   min-width: 500px;
-  padding-bottom: 99999px;
-  margin-bottom: -99999px;
 }
 
 .pane-nav {
@@ -292,13 +289,9 @@ a.book {
   font-size: 100px;
   margin: 0;
   padding: 0;
+  text-align: center;
   text-transform: uppercase;
-}
-
-.portrait {
-  height: 307px;
-  margin-top: 54px;
-  width: 307px;
+  width: 50%;
 }
 
 .pane-content-container {
@@ -322,9 +315,27 @@ a.book {
   padding: 0;
 }
 
+.pane-nav h1 {
+  position: fixed;
+  top: 100px;
+}
+
 .pane-nav .links {
-  margin: 100px 0 0 0;
+  bottom: 50px;
   padding: 0;
+  position: fixed;
+  width: 50%;
+}
+
+.pane-nav .portrait-container {
+  position: fixed;
+  top: 300px;
+  width: 50%;
+}
+
+.pane-nav .portrait {
+  height: 307px;
+  width: 307px;
 }
 
 .pane-nav .link {
