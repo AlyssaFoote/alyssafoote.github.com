@@ -359,7 +359,7 @@ a.book {
 }
 
 p a, p a:visited {
-  font-weight: bold;
   color: #1f1dac;
+  font-weight: bold;
 }
 
