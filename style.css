@@ -271,9 +271,6 @@ a.book {
 .panes {
   color: #1f1dac;
   overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  top: 0;
 }
 
 .pane {
