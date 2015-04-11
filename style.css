@@ -98,12 +98,15 @@ h2.occupation {
 }
 
 .floater {
-  background-image: url("new_assets/arrow.png");
-  background-repeat: no-repeat;
-  background-size: 20px 28px;
   float: right;
   margin-right: 15%;
   margin-top: 30%;
+}
+
+.floater a {
+  background-image: url("new_assets/arrow.png");
+  background-repeat: no-repeat;
+  background-size: 20px 28px;
   padding-left: 40px;
 }
 
