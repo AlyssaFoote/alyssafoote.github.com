@@ -328,7 +328,7 @@ a.book {
 }
 
 .pane-nav .links {
-  bottom: 50px;
+  bottom: 80px;
   padding: 0;
   position: fixed;
   width: 50%;
@@ -343,6 +343,18 @@ a.book {
 .pane-nav .portrait {
   height: 307px;
   width: 307px;
+}
+
+.pane-nav .social {
+  height: 20px;
+  bottom: 50px;
+  width: 50%;
+  position: fixed;
+  text-align: center;
+}
+
+.social a {
+  margin-right: 8px;
 }
 
 .pane-nav .link {
@@ -367,3 +379,11 @@ p a, p a:visited {
   font-weight: bold;
 }
 
+.scroll-arrow {
+  background-image: url("assets/scroll_arrow.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  bottom: 10px;
+  height: 70px;
+  position: fixed;
+}
