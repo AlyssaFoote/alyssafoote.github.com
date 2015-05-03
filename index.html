@@ -48,7 +48,7 @@
         <a target="_blank" href="https://squareup.com/appointments/book/TL89MO/karina-marwan-llc" class="hvr-pulse-shrink">I'll have what she's having</a>
       </div>
     </div>
-    <div class="story-container">
+    <div id="story-container" class="story-container">
       <div class="story">
         <div class="prolog">
           <h3>Creating a life you love takes two simple* steps.</h3>
@@ -89,5 +89,17 @@
         Copyright 2015 Karina Marwan LLC
       </div>
     </div>
+    <div id="scroll-arrow">
+      &nbsp;
+    </div>
+    <script>
+      var scrollArrow = document.getElementById('scroll-arrow');
+      document.addEventListener('scroll', function() {
+        var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+        if (scrollTop >= 380) {
+          scrollArrow.className = 'hide';
+        }
+      });
+    </script>
   </body>
 </html>

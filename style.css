@@ -379,11 +379,16 @@ p a, p a:visited {
   font-weight: bold;
 }
 
-.scroll-arrow {
+#scroll-arrow {
   background-image: url("assets/scroll_arrow.png");
   background-position: center center;
   background-repeat: no-repeat;
   bottom: 10px;
   height: 70px;
   position: fixed;
+  width: 100%;
+}
+
+.hide {
+  display: none;
 }
